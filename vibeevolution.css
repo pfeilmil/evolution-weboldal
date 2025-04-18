@@ -1,0 +1,100 @@
+/* Alap */
+body {
+    margin: 0;
+    font-family: 'Segoe UI', sans-serif;
+    background-color: #f2f2f2;
+    color: #333;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+/* Hero szekció */
+.hero {
+    background-image: url('QQhzcdB.png');
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    color: white;
+    text-align: center;
+    position: relative;
+}
+
+.logo {
+    width: 150px;
+    margin-top: 20px;
+}
+
+.hero nav ul {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    padding: 20px;
+    background-color: rgba(0,0,0,0.5);
+}
+
+.hero-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.hero-text h1 {
+    font-size: 3em;
+    margin-bottom: 0.3em;
+}
+
+.hero-text p {
+    font-size: 1.2em;
+}
+
+/* Tartalom */
+.content {
+    padding: 40px;
+    max-width: 1000px;
+    margin: auto;
+    background-color: white;
+}
+
+.content h2 {
+    font-size: 2em;
+}
+
+/* Szabályzat */
+pre.rules {
+    white-space: pre-wrap;
+    background-color: #f0f0f0;
+    padding: 20px;
+    border-left: 5px solid #222;
+    font-size: 0.95em;
+}
+
+/* Sub-header */
+.sub-header {
+    background-color: #111;
+    padding: 10px;
+    text-align: center;
+}
+
+.sub-header .logo.small {
+    width: 100px;
+    display: block;
+    margin: auto;
+}
+
+/* Lábléc */
+footer {
+    background-color: #111;
+    color: white;
+    text-align: center;
+    padding: 15px;
+}
